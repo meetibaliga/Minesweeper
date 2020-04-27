@@ -1,6 +1,5 @@
 package edu.colorado.cs;
 
-
 import edu.colorado.cs.controller.Controller;
 import edu.colorado.cs.model.Model;
 import edu.colorado.cs.view.View;
