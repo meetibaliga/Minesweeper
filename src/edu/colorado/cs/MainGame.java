@@ -22,13 +22,11 @@ public class MainGame {
     	static final String PASS = "Meeti123..";
 
         public static void main(String[] args) {
-
-        		//Singleton Pattern
-                
                 try {
-        			Connection mycon = DriverManager.getConnection(DB_URL, USER, PASS);
-        			Controller myGame = Controller.getInstance(new View(queue, mycon), new Model(), queue);
-                    myGame.mainLoop();
+        	        Connection mycon = DriverManager.getConnection(DB_URL, USER, PASS);
+                        //Singleton Pattern
+        	        Controller myGame = Controller.getInstance(new View(queue, mycon), new Model(), queue);
+                        myGame.mainLoop();
                 } catch (Exception e) {
                         e.printStackTrace();
                 }
