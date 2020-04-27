@@ -46,15 +46,15 @@ public class View extends JFrame {
 	static JFrame f;
 	
 	Icon redMine;
-    Icon mine;
-    Icon flag;
-    Icon tile;
+    	Icon mine;
+    	Icon flag;
+    	Icon tile;
     
-    Color DARK_BROWN = new Color(153,102,0);
-    Color DARK_GREEN = new Color(0,102,0);
+   	 Color DARK_BROWN = new Color(153,102,0);
+   	 Color DARK_GREEN = new Color(0,102,0);
 
-    private int FRAME_LOC_X = 430;
-    private int FRAME_LOC_Y = 50;
+   	 private int FRAME_LOC_X = 430;
+   	 private int FRAME_LOC_Y = 50;
 
 	/*
 	 * Initial view of game.
@@ -81,7 +81,7 @@ public class View extends JFrame {
 		mineCounter.setFont(new Font("Serif", Font.BOLD, 28));
 		
 		JLabel flag = new JLabel("");
-        flag.setIcon(resizeIcon(new ImageIcon(getClass().getResource("/resources/flag.png")), 26,26));
+        	flag.setIcon(resizeIcon(new ImageIcon(getClass().getResource("/resources/flag.png")), 26,26));
 		
 		JButton newGameButton = new JButton();
 		newGameButton.setText("  New Game  ");
@@ -92,7 +92,7 @@ public class View extends JFrame {
 		timer.setFont(new Font("Serif", Font.BOLD, 28));
 		
 		JLabel clock = new JLabel("");
-        clock.setIcon(resizeIcon(new ImageIcon(getClass().getResource("/resources/clock.png")), 28,28));
+        	clock.setIcon(resizeIcon(new ImageIcon(getClass().getResource("/resources/clock.png")), 28,28));
 		initTime = -1;
 		
 		SwingUtilities.invokeLater(new Runnable() {
