@@ -1,6 +1,6 @@
 # Minesweeper
 
-![](minesweeper.gif)
+![](Minesweeper.gif)
 
 Team Members: Krithika Damodar Bhat and Meeti Baliga
 
